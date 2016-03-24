@@ -22,7 +22,7 @@ exports.conditions = function conditions(values, operators, types){
         let op = operators && operators[key],
             val = values[key];
         // if type is defined for the key
-        if (types[key])
+        if (types && types[key])
             // parse value with given type
             val = parseValue(types[key], val)
         // if exists and operator is not equal
