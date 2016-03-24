@@ -10,5 +10,23 @@
   "license": "MIT",
   "dependencies": {
     "parse-value": "^0.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mguella/generic-query-parser.git"
+  },
+  "keywords": [
+    "parse",
+    "rest",
+    "query",
+    "db-query",
+    "crm-map"
+    "rest-crm"
+    "rest-query"
+  ],
+  "bugs": {
+    "url": "https://github.com/mguella/generic-query-parser/issues"
+  },
+  "homepage": "https://github.com/mguella/generic-query-parser"
 }
