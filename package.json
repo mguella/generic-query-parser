@@ -21,8 +21,8 @@
     "rest",
     "query",
     "db-query",
-    "crm-map"
-    "rest-crm"
+    "crm-map",
+    "rest-crm",
     "rest-query"
   ],
   "bugs": {
