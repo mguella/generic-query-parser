@@ -1,3 +1,5 @@
+'use strict';
+
 var parseValue = require('parse-value');
 
 var Parser = {};
@@ -17,7 +19,7 @@ Parser.conditions = function conditions(values, operators, types){
     var conditions = {};
 
     // for each key in the filter values
-    for (var key in values){
+    for (let key in values){
         // get filter operator and filter value
         let op = operators && operators[key],
             val = values[key];
