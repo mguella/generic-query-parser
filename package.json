@@ -1,6 +1,6 @@
 {
   "name": "generic-query-parser",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Parse request query object to conditions, projection, and options (sort, skip, limit) to use for DB queries",
   "main": "index.js",
   "scripts": {
